@@ -27,7 +27,8 @@ body {
     flex-basis: 40vw;
 }
 
-.hero-button {
+.hero-button,
+.cta-button {
     background-color: #3882F6;
     border: 0px;
     color: #E5E7EB;
@@ -64,6 +65,99 @@ a,
     font-weight: 900;
 }
 
+.random-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 75px;
+}
+
+.items {
+    display: flex;
+    gap: 64px;
+}
+
+.item {
+    width: 200px;
+}
+
+.item > img {
+    width: 200px;
+    border: 4px solid #3882F6;
+}
+
+.item > p {
+    margin-top: 4px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: 100px;
+
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.quote-person {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 8px;
+    align-self: flex-end;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 900px;
+    align-self: center;
+    border-radius: 10px;
+    gap: 200px;
+    margin: 100px;
+}
+
+.cta-header {
+    margin-bottom: 0px;
+    color: #F9FAF8;
+}
+
+.cta-text {
+    margin-top: 0px;
+    color: #F9FAF8;
+}
+
+.cta-button {
+    border:2px solid #F9FAF8;
+}
+
 a {
     text-decoration: none;
+}
+
+img {
+    border-radius: 10px;
 }
